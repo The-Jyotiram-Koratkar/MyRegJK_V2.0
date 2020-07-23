@@ -11,8 +11,8 @@ from setuptools import find_packages, setup
 # Package meta-data.
 NAME = 'regression_model'
 DESCRIPTION = 'Train and deploy regression model.'
-URL = 'https://github.com/The-Jyotiram-Koratkar/MyRegJK_V1.0'
-download_url = 'https://github.com/The-Jyotiram-Koratkar/MyRegJK_V1.0/archive/V1.0.tar.gz'
+URL = 'https://github.com/The-Jyotiram-Koratkar/MyRegJK_V2.0'
+download_url = 'https://github.com/The-Jyotiram-Koratkar/MyRegJK_V2.0/archive/V2.0.tar.gz'
 EMAIL = 'jyotiramsakshi10@gmail.com'
 AUTHOR = 'jyotiram koratkar'
 REQUIRES_PYTHON = '>=3.6.0'
@@ -61,7 +61,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    download_url = 'https://github.com/The-Jyotiram-Koratkar/MyRegJK_V1.0/archive/V1.0.tar.gz',
+    download_url = 'https://github.com/The-Jyotiram-Koratkar/MyRegJK_V2.0/archive/V2.0.tar.gz',
     packages=find_packages(exclude=('tests',)),
     package_data={'regression_model': ['VERSION']},
     install_requires=[# production requirements
